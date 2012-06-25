@@ -1,0 +1,111 @@
+Changelog
+=========
+
+4.1.0 (2011-11-30)
+------------------
+
+- Added another portlet manager below the global nav but above portal-columns
+  [robzonenet]
+
+- Added upgrade step and improved renderer to fail gracefully when the upgrade
+  has not yet been run.
+  [cah190]
+
+
+4.0.1 (2011-11-22)
+------------------
+
+- Fixed container link for footer portlets.
+  [robzonenet]
+
+
+4.0 (2011-08-18)
+----------------
+
+* Portlet managers' css identifiers are now of the format
+  'AbovePortletManager1' instead of the previously used
+  'portletsAboveContentA'
+  [esteele]
+  
+* Use Plone 4's deco.gs to handle layout automatically. Portlet managers will
+  now display as 1/[number of portlet managers with visible portlets] wide.
+  For example, if three of the six portlet managers have visible portlets,
+  each will fill 1/3 of the available area. Themes based on
+  plonetheme.sunburst will see the changes. Others will either need to use
+  sunburst's columns.css or manually align content using each portlet
+  manager's unique id.
+  [esteele]
+  
+* Depend on 'Products.CMFPlone' instead of 'Plone'. See
+  http://dev.plone.org/plone/ticket/10877 for more information.
+  [esteele]
+  
+3.0 (2011-03-09)
+----------------
+
+* Release 3.0 Final
+  [esteele]
+  
+3.0b2 (2011-02-28)
+------------------
+
+* Change the way the footer portlets viewlet is registered so that it plays a
+  bit more nicely with themes.
+  [esteele]
+
+* Add a class="row" to the footer portlet template to prevent it from bleeding
+  into the content area.
+  [esteele]
+  
+3.0b1 (2011-01-27)
+------------------
+
+* Pin to Plone 4.0 or better. Those looking for 3.x compatibility are best
+  sticking with ContentWellPortlets 2.0.
+  [esteele]
+  
+* Added French translation
+  [kiorky,numahell]
+
+* Added Spanish translation
+  [macagua]
+
+* Added support for i18n
+  [macagua]
+
+2.1 (2010-06-21)
+----------------
+
+* Move "above" portlets to IAboveContent viewlet manager.
+  [esteele]
+  
+* Tweak styling of "manage portlets" links, add managePortletsFallback class.
+  [esteele]
+
+2.0 (2009-10-12)
+----------------
+
+* Adds Footer portlets
+* Adds extra portlet managers to each content well portlet area (6 per area:
+  above content, below content, and footer) - 18 total
+* Included extra example css in README.txt
+* Cleaned up manager UI
+* Adds warning message when on a default view of a container.
+
+1.1 (2008-12-19)
+----------------
+
+* Added our own portlet manager renderer (closes ticket #952)
+* Got rid of CSS associated with the previous (fudge) method of rendering we
+  were using
+
+1.0.1 (2008-12-17)
+------------------
+
+* Fixed an issue with an incomplete egg
+
+1.0 (2008-12-16)
+----------------
+
+* Initial release
+

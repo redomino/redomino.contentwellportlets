@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<!-- Set up all the new portlet managers we need above and below the content well -->
+<portlets>
+    <portletmanager 
+         name="ContentWellPortlets.InHeaderPortletManager1"
+         type="redomino.contentwellportlets.browser.interfaces.IHeaderPortlets"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.InHeaderPortletManager2"
+         type="redomino.contentwellportlets.browser.interfaces.IHeaderPortlets"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.InHeaderPortletManager3"
+         type="redomino.contentwellportlets.browser.interfaces.IHeaderPortlets"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.InHeaderPortletManager4"
+         type="redomino.contentwellportlets.browser.interfaces.IHeaderPortlets"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.InHeaderPortletManager5"
+         type="redomino.contentwellportlets.browser.interfaces.IHeaderPortlets"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.InHeaderPortletManager6"
+         type="redomino.contentwellportlets.browser.interfaces.IHeaderPortlets"
+    />
+    <portletmanager 
+         name="ContentWellPortlets.AbovePortletManager1"
+         type="redomino.contentwellportlets.browser.interfaces.IPortletsAboveContent"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.AbovePortletManager2"
+         type="redomino.contentwellportlets.browser.interfaces.IPortletsAboveContent"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.AbovePortletManager3"
+         type="redomino.contentwellportlets.browser.interfaces.IPortletsAboveContent"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.AbovePortletManager4"
+         type="redomino.contentwellportlets.browser.interfaces.IPortletsAboveContent"
+    />
+    
+    <portletmanager 
+         name="ContentWellPortlets.AbovePortletManager5"
+         type="redomino.contentwellportlets.browser.interfaces.IPortletsAboveContent"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.AbovePortletManager6"
+         type="redomino.contentwellportlets.browser.interfaces.IPortletsAboveContent"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.BelowPortletManager1"
+         type="redomino.contentwellportlets.browser.interfaces.IPortletsBelowContent"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.BelowPortletManager2"
+         type="redomino.contentwellportlets.browser.interfaces.IPortletsBelowContent"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.BelowPortletManager3"
+         type="redomino.contentwellportlets.browser.interfaces.IPortletsBelowContent"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.BelowPortletManager4"
+         type="redomino.contentwellportlets.browser.interfaces.IPortletsBelowContent"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.BelowPortletManager5"
+         type="redomino.contentwellportlets.browser.interfaces.IPortletsBelowContent"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.BelowPortletManager6"
+         type="redomino.contentwellportlets.browser.interfaces.IPortletsBelowContent"
+    />
+    <portletmanager 
+         name="ContentWellPortlets.FooterPortletManager1"
+         type="redomino.contentwellportlets.browser.interfaces.IFooterPortlets"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.FooterPortletManager2"
+         type="redomino.contentwellportlets.browser.interfaces.IFooterPortlets"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.FooterPortletManager3"
+         type="redomino.contentwellportlets.browser.interfaces.IFooterPortlets"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.FooterPortletManager4"
+         type="redomino.contentwellportlets.browser.interfaces.IFooterPortlets"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.FooterPortletManager5"
+         type="redomino.contentwellportlets.browser.interfaces.IFooterPortlets"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.FooterPortletManager6"
+         type="redomino.contentwellportlets.browser.interfaces.IFooterPortlets"
+    />
+</portlets>

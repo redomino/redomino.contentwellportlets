@@ -1,0 +1,89 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      metal:use-macro="context/main_template/macros/master"
+      i18n:domain="redomino.contentwellportlets">
+    <head>
+        <div metal:fill-slot="javascript_head_slot" tal:omit-tag="">
+            <link type="text/css" rel="kinetic-stylesheet"
+                tal:attributes="href string:${context/absolute_url}/++resource++manage-portlets.kss"/>
+        </div>
+    </head>
+    <body class="manage-portlet-well">
+
+        <metal:block fill-slot="top_slot"
+                         tal:define="disable_column_one python:request.set('disable_plone.leftcolumn',1);
+                                     disable_column_two python:request.set('disable_plone.rightcolumn',1);" />
+
+        <div metal:fill-slot="portlets_one_slot">
+            <tal:comment tal:replace="nothing">get rid of the left hand column portlets to avoid confusion</tal:comment>
+        </div>
+        
+        <div metal:fill-slot="main">
+
+            <tal:warning tal:condition="plone_view/isDefaultPageInFolder">
+                <dl class="portalMessage warning">
+                    <dt i18n:translate="message_warning_footer_area_dt">Is this really where you want to add portlets in the footer area?</dt>
+                    <dd i18n:translate="message_warning_footer_area_dd">If you add portlets here, they will only appear on this item. If instead you want portlets to appear on all items in this folder, 
+                        <a href=""
+                           tal:attributes="href string:${plone_view/getCurrentFolderUrl}/@@manage-portletsfooter"
+                            i18n:name="manage-footerportlets_link">
+                            <span i18n:translate="add_them_to_the_folder_itself">add them to the folder itself</span>
+                        </a>
+                    </dd>
+                <dl>
+            </tal:warning>  
+
+            <h1 class="documentFirstHeading"
+                i18n:translate="manage_portlets_footer">Manage Footer portlets</h1>
+            
+            <p>
+                 <a href=""
+                       class="link-parent"
+                       tal:attributes="href string:${context/absolute_url}"
+                       i18n:translate="return_to_view">
+                    Return
+                 </a>
+            </p>            
+            <div class="portlet-manager-row">
+                <div class="porlet-well_manager">
+                    <h2 i18n:translate="footer-portlet-a">Footer Portlet A</h2>
+                    <span tal:replace="structure provider:ContentWellPortlets.FooterPortletManager1" />
+                </div>
+            
+                <div class="porlet-well_manager">
+                    <h2 i18n:translate="footer-portlet-b">Footer Portlet B</h2>
+                    <span tal:replace="structure provider:ContentWellPortlets.FooterPortletManager2" />
+                </div>
+            
+                <div class="porlet-well_manager">
+                    <h2 i18n:translate="footer-portlet-c">Footer Portlet C</h2>
+                    <span tal:replace="structure provider:ContentWellPortlets.FooterPortletManager3" />
+                </div>
+            </div>
+            <div class="portlet-manager-row">
+                <div class="porlet-well_manager">
+                    <h2 i18n:translate="footer-portlet-d">Footer Portlet D</h2>
+                    <span tal:replace="structure provider:ContentWellPortlets.FooterPortletManager4" />
+                </div>
+            
+                <div class="porlet-well_manager">
+                    <h2 i18n:translate="footer-portlet-e">Footer Portlet E</h2>
+                    <span tal:replace="structure provider:ContentWellPortlets.FooterPortletManager5" />
+                </div>
+            
+                <div class="porlet-well_manager">
+                    <h2 i18n:translate="footer-portlet-f">Footer Portlet F</h2>
+                    <span tal:replace="structure provider:ContentWellPortlets.FooterPortletManager6" />
+                </div>
+            </div>
+        </div>
+
+        <div metal:fill-slot="portlets_two_slot">
+            <tal:comment tal:replace="nothing">get rid of the left hand column portlets to avoid confusion</tal:comment>
+        </div>
+
+
+    </body>
+</html>

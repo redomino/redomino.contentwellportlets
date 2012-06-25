@@ -1,0 +1,15 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="plone">
+
+    <genericsetup:upgradeStep
+        source="2.1"
+        destination="3"
+        profile="redomino.contentwellportlets:default"
+        title="Migrate from 3.x or 4.0.x to 4.1"
+        description="Register the header portlets"
+        handler="redomino.contentwellportlets.migrations.from_2_1_to_3"
+    />
+
+</configure>

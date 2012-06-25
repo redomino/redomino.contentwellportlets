@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+
+<object>
+     <order manager="plone.portalfooter" skinname="*">
+        <viewlet name="contentwellportlets.footerportlets" insert-before="plone.footer"/> 
+     </order>
+</object>

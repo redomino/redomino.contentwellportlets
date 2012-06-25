@@ -1,0 +1,25 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    i18n_domain="redomino.contentwellportlets">
+
+    <include package=".browser" />
+    <include file="upgrades.zcml" />
+
+    <i18n:registerTranslations directory="locales" />
+
+    <!-- register the Generic Setup extension profile -->
+    <genericsetup:registerProfile
+          name="default"
+          title="redomino.contentwellportlets"
+          directory="profiles/default"
+          description="Extension profile for redomino.contentwellportlets"
+          provides="Products.GenericSetup.interfaces.EXTENSION"
+          i18n:attributes="title gs_profiles_default_title;
+                           description gs_profiles_default_description;"
+          />
+
+</configure>

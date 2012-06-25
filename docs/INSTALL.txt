@@ -1,0 +1,61 @@
+Products.ContentWellPortlets Installation
+==========================
+
+= Prerequisites =
+Plone 4.0 or higher
+
+= Instructions =
+To install Products.ContentWellPortlets into your Plone site, you have various options
+
+(Either)
+= A. Install as an old style Zope 2 Product =
+Because its top level Python namespace package is called ``Products``, this
+package can be installed in Zope 2 as an old style **Zope 2 Product** as follows:
+ (a) Check Products.ContentWellPortlets out of subversion onto somewhere on your file system, or untar the tarball
+
+ (b) Move (or symlink / soft link) the ``ContentWellPortlets`` folder 
+     (``Products.ContentWellPortlets/Products/ContentWellPortlets``) into the ``Products`` directory of
+     the Zope instance it has to be installed for, and restart the server.
+
+ (c) You should see ContentWellPortlets available in the portal_quickinstaller and Add/Remove Products pane of the Plone Control Panel
+
+(Or)
+= B. Install using buildout =
+If you are using zc.buildout and the plone.recipe.zope2instance recipe, you can do this:
+
+== B1. To install the latest tagged release ==
+ (i) Add ``Products.ContentWellPortlets`` to the list of eggs to install, e.g.:
+ 
+    [buildout]
+    ...
+    eggs =
+        ...
+        Products.ContentWellPortlets
+        
+ (ii) Stop Zope and re-run buildout, e.g. with:
+  
+    $ ./bin/buildout -N
+
+ (iii) Restart Zope; you should see ContentWellPortlets available in the portal_quickinstaller and Add/Remove Products pane of the Plone Control Panel
+
+== B2. To install the latest version of the trunk as a development egg ==
+ (i) Get the product buildout.eggtractor if you don't already have it, as follows:
+ * Add "extensions = buildout.eggtractor" to the "parts" section of your buildout.cfg
+    [parts]
+    ...
+    extensions = buildout.eggtractor
+ * Save these changes to buildout.cfg
+ * Stop Zope and re-run buildout, e.g. with:
+  
+    $ ./bin/buildout -N
+
+ (ii) Check the trunk of Products.ContentWellPortlets out of subversion onto somewhere on your file system
+      (see setup.py for details of subversion location)
+
+ (iii) Move or softlink Products.ContentWellPortlets into the /src folder alongside your buildout.cfg
+
+ (iv) Make sure Zope isn't running and rerun buildout with the -o flag:
+    $ ./bin/buildout -o
+
+ (v) Restart Zope; you should see ContentWellPortlets available in the portal_quickinstaller and Add/Remove Products pane of the Plone Control Panel
+
