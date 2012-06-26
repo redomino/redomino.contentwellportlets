@@ -66,3 +66,7 @@ class PortletsBelowViewlet(ContentWellPortletsViewlet):
 class FooterPortletsViewlet(ContentWellPortletsViewlet):
     name = 'FooterPortletManager'
     manage_view = '@@manage-portletsfooter'
+
+class PortletsBelowTitleViewlet(ContentWellPortletsViewlet):
+    name = 'BelowTitlePortletManager'
+    manage_view = '@@manage-portletsbelowtitlecontent'

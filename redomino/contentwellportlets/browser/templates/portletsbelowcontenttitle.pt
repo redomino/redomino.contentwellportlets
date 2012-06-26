@@ -1,0 +1,20 @@
+<div id="portlets-below"
+    class="row"
+     i18n:domain="redomino.contentwellportlets">
+     <tal:block tal:condition="view/showPortlets">
+         <tal:portletmanagers tal:repeat="manager view/portletManagersToShow">
+             <div tal:attributes="class python:manager[1]"
+                  tal:define="mgr python:manager[0]"
+                  tal:content="structure provider:${mgr}" /> 
+
+         </tal:portletmanagers>
+     </tal:block>
+</div>
+
+<div class="managePortletsBelowTitleLink"
+   tal:condition="view/canManagePortlets">
+    <a href="" 
+       class="managePortletsFallback"
+       tal:attributes="href view/manageUrl"
+       i18n:translate="manage_portlets_below_title_link">Add, edit or remove a portlet below the content title</a>
+</div>

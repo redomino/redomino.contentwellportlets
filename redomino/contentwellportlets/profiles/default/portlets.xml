@@ -118,4 +118,37 @@
          name="ContentWellPortlets.FooterPortletManager6"
          type="redomino.contentwellportlets.browser.interfaces.IFooterPortlets"
     />
+
+<!---->
+
+
+    <portletmanager 
+         name="ContentWellPortlets.BelowTitlePortletManager1"
+         type="redomino.contentwellportlets.browser.interfaces.IPortletsBelowContentTitle"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.BelowTitlePortletManager2"
+         type="redomino.contentwellportlets.browser.interfaces.IPortletsBelowContentTitle"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.BelowTitlePortletManager3"
+         type="redomino.contentwellportlets.browser.interfaces.IPortletsBelowContentTitle"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.BelowTitlePortletManager4"
+         type="redomino.contentwellportlets.browser.interfaces.IPortletsBelowContentTitle"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.BelowTitlePortletManager5"
+         type="redomino.contentwellportlets.browser.interfaces.IPortletsBelowContentTitle"
+    />
+
+    <portletmanager 
+         name="ContentWellPortlets.BelowTitlePortletManager6"
+         type="redomino.contentwellportlets.browser.interfaces.IPortletsBelowContentTitle"
+    />
 </portlets>
