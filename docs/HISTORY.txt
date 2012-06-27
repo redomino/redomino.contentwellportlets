@@ -1,6 +1,12 @@
 Changelog
 =========
 
+4.1.2 (2012-06-27)
+------------------
+
+* Added another portlet manager below the content title
+  [giacomos]
+
 4.1.1 (2012-06-27)
 ------------------
 
