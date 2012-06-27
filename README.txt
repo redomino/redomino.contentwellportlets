@@ -1,3 +1,7 @@
+Why we created this fork?
+=========================
+We forked the original product Products.ContentWellPortlets (by `WebLion <http://weblion.psu.edu/>`_) for adding new features.
+
 Overview
 ========
 

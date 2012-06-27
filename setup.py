@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '4.1.0'
+version = '4.1.1'
 
 setup(name='redomino.contentwellportlets',
       version=version,
@@ -15,9 +15,9 @@ setup(name='redomino.contentwellportlets',
         "Topic :: Software Development :: Libraries :: Python Modules",
         ],
       keywords='plone portletmanager',
-      author='WebLion',
-      author_email='support@weblion.psu.edu',
-      url='http://weblion.psu.edu',
+      author='Redomino',
+      author_email='info@redomino.com',
+      url='https://github.com/redomino/redomino.contentwellportlets',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['redomino'],

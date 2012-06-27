@@ -1,6 +1,16 @@
 Changelog
 =========
 
+4.1.1 (2012-06-27)
+------------------
+
+* New fork and back to development
+  [giacomos]
+
+* added italian translation
+* fixed messages in management pages
+
+
 4.1.0 (2011-11-30)
 ------------------
 
