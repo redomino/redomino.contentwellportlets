@@ -22,19 +22,22 @@
         
         <div metal:fill-slot="main">
 
-            <tal:warning tal:condition="plone_view/isDefaultPageInFolder">
-                <dl class="portalMessage warning">
-                    <dt i18n:translate="message_warning_in_header_area_dt">Is this really where you want to add portlets in the header area?</dt>
-                    <dd i18n:translate="message_warning_in-header_area_dd">If you add portlets here, they will only appear on this item. If instead you want portlets to appear on all items in this folder, 
-                        <a href=""
-                           tal:attributes="href string:${plone_view/getCurrentFolderUrl}/@@manage-portletsinheader"
-                            i18n:name="manage-in-header-portlets_link">
-                            <span i18n:translate="add_them_to_the_folder_itself">add them to the folder itself</span>
-                        </a>
-                    </dd>
-                <dl>
-            </tal:warning>  
-
+           <dl class="portalMessage info"
+               tal:condition="plone_view/isDefaultPageInFolder"
+               i18n:domain="plone">
+             <dt i18n:translate="">
+                 Info
+             </dt>
+             <dd i18n:translate="label_manage_portlets_default_view_container">
+                 You are managing the portlets of the default view of a container. If
+                 you wanted to manage the portlets of the container itself,
+                 <a href=""
+                     i18n:name="go_here"
+                     i18n:translate="label_manage_portlets_default_view_container_go_here"
+                     tal:attributes="href string:${plone_view/getCurrentFolderUrl}/@@manage-portletsinheader">go here</a>.
+             </dd>
+           </dl>
+     
             <h1 class="documentFirstHeading"
                 i18n:translate="manage_portlets_in_header">Manage portlets in the header</h1>
             

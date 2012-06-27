@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ContentWellPortlets 2.0\n"
-"POT-Creation-Date: 2011-01-24 09:36+0000\n"
+"POT-Creation-Date: 2012-06-27 13:06+0000\n"
 "PO-Revision-Date: 2010-01-18 09:34-0400\n"
 "Last-Translator: Héctor Velarde <hector.velarde@gmail.com>\n"
 "Language-Team: Spanish <plone-conosur@lists.plone.org>\n"
@@ -20,142 +20,172 @@ msgstr ""
 "X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
 
 #. Default: "add them to the folder itself"
-#: ../browser/templates/managefooterportlets.pt:28
-#: ../browser/templates/manageportletsabove.pt:28
-#: ../browser/templates/manageportletsbelow.pt:27
+#: ../browser/templates/managefooterportlets.pt:32
+#: ../browser/templates/manageinheaderportlets.pt:32
+#: ../browser/templates/manageportletsabove.pt:32
 msgid "add_them_to_the_folder_itself"
 msgstr "agréguelos entonces a la carpeta"
 
 #. Default: "Footer Portlet A"
-#: ../browser/templates/managefooterportlets.pt:47
+#: ../browser/templates/managefooterportlets.pt:51
 msgid "footer-portlet-a"
 msgstr "Portlets de pie de página A"
 
 #. Default: "Footer Portlet B"
-#: ../browser/templates/managefooterportlets.pt:52
+#: ../browser/templates/managefooterportlets.pt:56
 msgid "footer-portlet-b"
 msgstr "Portlets de pie de página B"
 
 #. Default: "Footer Portlet C"
-#: ../browser/templates/managefooterportlets.pt:57
+#: ../browser/templates/managefooterportlets.pt:61
 msgid "footer-portlet-c"
 msgstr "Portlets de pie de página C"
 
 #. Default: "Footer Portlet D"
-#: ../browser/templates/managefooterportlets.pt:63
+#: ../browser/templates/managefooterportlets.pt:67
 msgid "footer-portlet-d"
 msgstr "Portlets de pie de página D"
 
 #. Default: "Footer Portlet E"
-#: ../browser/templates/managefooterportlets.pt:68
+#: ../browser/templates/managefooterportlets.pt:72
 msgid "footer-portlet-e"
 msgstr "Portlets de pie de página E"
 
 #. Default: "Footer Portlet F"
-#: ../browser/templates/managefooterportlets.pt:73
+#: ../browser/templates/managefooterportlets.pt:77
 msgid "footer-portlet-f"
 msgstr "Portlets de pie de página F"
 
-#. Default: "Add, edit or remove a portlet in the footer"
-#: ../browser/templates/footerportlets.pt:24
-msgid "manage-footer-portlet-link"
-msgstr "Agregar, editar o eliminar portlets al pie de la página"
+#. Default: "In Header Portlet A"
+#: ../browser/templates/manageinheaderportlets.pt:51
+msgid "in-header-portlet-a"
+msgstr ""
+
+#. Default: "In Header Portlet B"
+#: ../browser/templates/manageinheaderportlets.pt:56
+msgid "in-header-portlet-b"
+msgstr ""
+
+#. Default: "In Header Portlet C"
+#: ../browser/templates/manageinheaderportlets.pt:61
+msgid "in-header-portlet-c"
+msgstr ""
+
+#. Default: "In Header Portlet D"
+#: ../browser/templates/manageinheaderportlets.pt:67
+msgid "in-header-portlet-d"
+msgstr ""
+
+#. Default: "In Header Portlet E"
+#: ../browser/templates/manageinheaderportlets.pt:72
+msgid "in-header-portlet-e"
+msgstr ""
+
+#. Default: "In Header Portlet F"
+#: ../browser/templates/manageinheaderportlets.pt:77
+msgid "in-header-portlet-f"
+msgstr ""
 
 #. Default: "Manage portlets above content"
-#: ../browser/templates/manageportletsabove.pt:34
+#: ../browser/templates/manageportletsabove.pt:38
 msgid "manage_portlets_above_content"
 msgstr "Administrar los portlets encima del contenido"
 
-#. Default: "Add, edit or remove a portlet above the content"
-#: ../browser/templates/portletsabovecontent.pt:21
-msgid "manage_portlets_above_link"
-msgstr "Agregar, editar o eliminar portlets encima del contenido"
-
 #. Default: "Manage portlets below content"
-#: ../browser/templates/manageportletsbelow.pt:33
+#: ../browser/templates/manageportletsbelow.pt:38
 msgid "manage_portlets_below_content"
 msgstr "Administrar los portlets debajo del contenido"
 
-#. Default: "Add, edit or remove a portlet below the content"
-#: ../browser/templates/portletsbelowcontent.pt:24
-msgid "manage_portlets_below_link"
-msgstr "Agregar, editar o eliminar portlets debajo del contenido"
-
 #. Default: "Manage Footer portlets"
-#: ../browser/templates/managefooterportlets.pt:34
+#: ../browser/templates/managefooterportlets.pt:38
 msgid "manage_portlets_footer"
 msgstr "Administrar los portlets al pie de la página"
 
+#. Default: "Manage portlets in the header"
+#: ../browser/templates/manageinheaderportlets.pt:38
+msgid "manage_portlets_in_header"
+msgstr ""
+
 #. Default: "If you add portlets here, they will only appear on this item. If instead you want portlets to appear on all items in this folder, ${manage-portletsabovecontent_link}"
-#: ../browser/templates/manageportletsabove.pt:25
+#: ../browser/templates/manageportletsabove.pt:29
 msgid "message_warning_above_content_area_dd"
 msgstr "Si usted agrega los portlets aquí, ellos se mostrarán solamente en este elemento. Si usted quiere, en cambio, que los portlets aparezcan en todos los elementos de esta carpeta, ${manage-portletsabovecontent_link}"
 
 #. Default: "Is this really where you want to add portlets above the content?"
-#: ../browser/templates/manageportletsabove.pt:23
+#: ../browser/templates/manageportletsabove.pt:27
 msgid "message_warning_above_content_area_dt"
 msgstr "¿Es aquí donde quiere agregar los portlets realmente?"
 
 #. Default: "If you add portlets here, they will only appear on this item. If instead you want portlets to appear on all items in this folder, ${manage-portletsbelowcontent_link}"
-#: ../browser/templates/manageportletsbelow.pt:24
+#: ../browser/templates/manageportletsbelow.pt:29
 msgid "message_warning_below_content_area_dd"
 msgstr "Si usted agrega los portlets aquí, ellos se mostrarán solamente en este elemento. Si usted quiere, en cambio, que los portlets aparezcan en todos los elementos de esta carpeta, ${manage-portletsbelowcontent_link}"
 
 #. Default: "Is this really where you want to add portlets below the content?"
-#: ../browser/templates/manageportletsbelow.pt:22
+#: ../browser/templates/manageportletsbelow.pt:27
 msgid "message_warning_below_content_area_dt"
 msgstr "¿Es aquí donde quiere agregar los portlets realmente?"
 
 #. Default: "If you add portlets here, they will only appear on this item. If instead you want portlets to appear on all items in this folder, ${manage-footerportlets_link}"
-#: ../browser/templates/managefooterportlets.pt:25
+#: ../browser/templates/managefooterportlets.pt:29
 msgid "message_warning_footer_area_dd"
 msgstr "Si usted agrega los portlets aquí, ellos se mostrarán solamente en este elemento. Si usted quiere, en cambio, que los portlets aparezcan en todos los elementos de esta carpeta, ${manage-footerportlets_link}"
 
 #. Default: "Is this really where you want to add portlets in the footer area?"
-#: ../browser/templates/managefooterportlets.pt:23
+#: ../browser/templates/managefooterportlets.pt:27
 msgid "message_warning_footer_area_dt"
 msgstr "¿Es aquí donde quiere agregar los portlets realmente?"
 
+#. Default: "If you add portlets here, they will only appear on this item. If instead you want portlets to appear on all items in this folder, ${manage-in-header-portlets_link}"
+#: ../browser/templates/manageinheaderportlets.pt:29
+msgid "message_warning_in-header_area_dd"
+msgstr ""
+
+#. Default: "Is this really where you want to add portlets in the header area?"
+#: ../browser/templates/manageinheaderportlets.pt:27
+msgid "message_warning_in_header_area_dt"
+msgstr ""
+
 #. Default: "Portlet well A"
-#: ../browser/templates/manageportletsabove.pt:47
-#: ../browser/templates/manageportletsbelow.pt:47
+#: ../browser/templates/manageportletsabove.pt:51
+#: ../browser/templates/manageportletsbelow.pt:52
 msgid "portlet-well-a"
 msgstr "Caja para portlets A"
 
 #. Default: "Portlet well B"
-#: ../browser/templates/manageportletsabove.pt:52
-#: ../browser/templates/manageportletsbelow.pt:52
+#: ../browser/templates/manageportletsabove.pt:56
+#: ../browser/templates/manageportletsbelow.pt:57
 msgid "portlet-well-b"
 msgstr "Caja para portlets B"
 
 #. Default: "Portlet well C"
-#: ../browser/templates/manageportletsabove.pt:57
-#: ../browser/templates/manageportletsbelow.pt:57
+#: ../browser/templates/manageportletsabove.pt:61
+#: ../browser/templates/manageportletsbelow.pt:62
 msgid "portlet-well-c"
 msgstr "Caja para portlets C"
 
 #. Default: "Portlet well D"
-#: ../browser/templates/manageportletsabove.pt:63
-#: ../browser/templates/manageportletsbelow.pt:63
+#: ../browser/templates/manageportletsabove.pt:67
+#: ../browser/templates/manageportletsbelow.pt:68
 msgid "portlet-well-d"
 msgstr "Caja para portlets D"
 
 #. Default: "Portlet well E"
-#: ../browser/templates/manageportletsabove.pt:68
-#: ../browser/templates/manageportletsbelow.pt:68
+#: ../browser/templates/manageportletsabove.pt:72
+#: ../browser/templates/manageportletsbelow.pt:73
 msgid "portlet-well-e"
 msgstr "Caja para portlets E"
 
 #. Default: "Portlet well F"
-#: ../browser/templates/manageportletsabove.pt:73
-#: ../browser/templates/manageportletsbelow.pt:73
+#: ../browser/templates/manageportletsabove.pt:77
+#: ../browser/templates/manageportletsbelow.pt:78
 msgid "portlet-well-f"
 msgstr "Caja para portlets F"
 
 #. Default: "Return"
-#: ../browser/templates/managefooterportlets.pt:38
-#: ../browser/templates/manageportletsabove.pt:38
-#: ../browser/templates/manageportletsbelow.pt:37
+#: ../browser/templates/managefooterportlets.pt:42
+#: ../browser/templates/manageinheaderportlets.pt:42
+#: ../browser/templates/manageportletsabove.pt:42
 msgid "return_to_view"
 msgstr "Volver"
 
