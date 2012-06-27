@@ -1,3 +1,7 @@
+iWhy create this fork?
+=====================
+We forked the original product Products.ContentWellPortlets for adding new features.
+
 Overview
 ========
 
