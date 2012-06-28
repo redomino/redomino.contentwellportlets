@@ -28,7 +28,7 @@
             <dt i18n:translate="">
                 Info
             </dt>
-            <dd i18n:translate="label_manage_portlets_default_view_container">
+            <dd i18n:translate="label_manage_portlets_default_view_container" i18n:domain="plone">
                 You are managing the portlets of the default view of a container. If
                 you wanted to manage the portlets of the container itself,
                 <a href=""

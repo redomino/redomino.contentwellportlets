@@ -1,12 +1,13 @@
 #!/usr/bin/env bash
 cd $(dirname $0)
 rm ./rebuild_i18n.log
+domain="redomino.contentwellportlets"
 
-i18ndude rebuild-pot --pot ./contentwellportlets.pot --merge ./contentwellportlets-manual.pot --create redomino.contentwellportlets ../ ../profiles ../browser || exit 1
-i18ndude sync        --pot ./contentwellportlets.pot ./*/LC_MESSAGES/contentwellportlets.po
+i18ndude rebuild-pot --pot ./$domain.pot --merge ./$domain-manual.pot --create $domain ../ ../profiles ../browser || exit 1
+i18ndude sync        --pot ./$domain.pot ./*/LC_MESSAGES/$domain.po
 
-i18ndude rebuild-pot --pot ../i18n/contentwellportlets.pot --merge ../i18n/contentwellportlets-manual.pot --create plone ../ ../profiles ../browser || exit 1
-i18ndude sync        --pot ../i18n/contentwellportlets.pot ../i18n/contentwellportlets-*.po
+i18ndude rebuild-pot --pot ../i18n/$domain.pot --merge ../i18n/$domain-manual.pot --create plone ../ ../profiles ../browser || exit 1
+i18ndude sync        --pot ../i18n/$domain.pot ../i18n/$domain-*.po
 
 WARNINGS=`find . -name "*pt" | xargs i18ndude find-untranslated | grep -e '^-WARN' | wc -l`
 ERRORS=`find . -name "*pt" | xargs i18ndude find-untranslated | grep -e '^-ERROR' | wc -l`

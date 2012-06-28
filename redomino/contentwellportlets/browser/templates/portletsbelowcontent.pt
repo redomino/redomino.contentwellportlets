@@ -1,3 +1,9 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:metal="http://xml.zope.org/namespaces/metal"
+      xmlns:tal="http://xml.zope.org/namespaces/tal"
+      xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+      i18n:domain="redomino.contentwellportlets"
+      tal:omit-tag="">
 <div id="portlets-below"
     class="row"
      i18n:domain="redomino.contentwellportlets">
@@ -18,3 +24,4 @@
        tal:attributes="href view/manageUrl"
        i18n:translate="manage_portlets_below_link">Add, edit or remove a portlet below the content</a>
 </div>
+</html>

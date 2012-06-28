@@ -1,0 +1,39 @@
+# Andrea D'Este, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: ContentWellPortlets 2.0\n"
+"POT-Creation-Date: 2012-06-28 12:19+0000\n"
+"PO-Revision-Date: 2010-01-18 09:34-0400\n"
+"Last-Translator: Andrea D'Este <andrea.deste@redomino.com>\n"
+"Language-Team: Italian <info@redomino.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: Products.ContentWellPortlets\n"
+"Language-code: it\n"
+"Language-name: Italian\n"
+
+#: ../browser/templates/managefooterportlets.pt:28
+#: ../browser/templates/manageinheaderportlets.pt:28
+#: ../browser/templates/manageportletsabove.pt:28
+msgid "Info"
+msgstr ""
+
+#. Default: "You are managing the portlets of the default view of a container. If you wanted to manage the portlets of the container itself, ${go_here}."
+#: ../browser/templates/managefooterportlets.pt:34
+#: ../browser/templates/manageinheaderportlets.pt:34
+#: ../browser/templates/manageportletsabove.pt:34
+msgid "label_manage_portlets_default_view_container"
+msgstr ""
+
+#. Default: "go here"
+#: ../browser/templates/managefooterportlets.pt:34
+#: ../browser/templates/manageinheaderportlets.pt:34
+#: ../browser/templates/manageportletsabove.pt:34
+msgid "label_manage_portlets_default_view_container_go_here"
+msgstr ""
+
