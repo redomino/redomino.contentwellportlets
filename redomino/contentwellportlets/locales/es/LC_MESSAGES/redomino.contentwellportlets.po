@@ -1,0 +1,164 @@
+# Leonardo J. Caballero G., 2010.
+# Héctor Velarde, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: ContentWellPortlets 2.0\n"
+"POT-Creation-Date: 2012-06-28 12:19+0000\n"
+"PO-Revision-Date: 2010-01-18 09:34-0400\n"
+"Last-Translator: Héctor Velarde <hector.velarde@gmail.com>\n"
+"Language-Team: Spanish <plone-conosur@lists.plone.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: redomino.contentwellportlets\n"
+"Language-code: es\n"
+"Language-name: Spanish\n"
+"X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
+
+#. Default: "Footer Portlet A"
+#: ../browser/templates/managefooterportlets.pt:54
+msgid "footer-portlet-a"
+msgstr "Portlets de pie de página A"
+
+#. Default: "Footer Portlet B"
+#: ../browser/templates/managefooterportlets.pt:59
+msgid "footer-portlet-b"
+msgstr "Portlets de pie de página B"
+
+#. Default: "Footer Portlet C"
+#: ../browser/templates/managefooterportlets.pt:64
+msgid "footer-portlet-c"
+msgstr "Portlets de pie de página C"
+
+#. Default: "Footer Portlet D"
+#: ../browser/templates/managefooterportlets.pt:70
+msgid "footer-portlet-d"
+msgstr "Portlets de pie de página D"
+
+#. Default: "Footer Portlet E"
+#: ../browser/templates/managefooterportlets.pt:75
+msgid "footer-portlet-e"
+msgstr "Portlets de pie de página E"
+
+#. Default: "Footer Portlet F"
+#: ../browser/templates/managefooterportlets.pt:80
+msgid "footer-portlet-f"
+msgstr "Portlets de pie de página F"
+
+#. Default: "In Header Portlet A"
+#: ../browser/templates/manageinheaderportlets.pt:54
+msgid "in-header-portlet-a"
+msgstr ""
+
+#. Default: "In Header Portlet B"
+#: ../browser/templates/manageinheaderportlets.pt:59
+msgid "in-header-portlet-b"
+msgstr ""
+
+#. Default: "In Header Portlet C"
+#: ../browser/templates/manageinheaderportlets.pt:64
+msgid "in-header-portlet-c"
+msgstr ""
+
+#. Default: "In Header Portlet D"
+#: ../browser/templates/manageinheaderportlets.pt:70
+msgid "in-header-portlet-d"
+msgstr ""
+
+#. Default: "In Header Portlet E"
+#: ../browser/templates/manageinheaderportlets.pt:75
+msgid "in-header-portlet-e"
+msgstr ""
+
+#. Default: "In Header Portlet F"
+#: ../browser/templates/manageinheaderportlets.pt:80
+msgid "in-header-portlet-f"
+msgstr ""
+
+#. Default: "Add, edit or remove a portlet in the footer"
+#: ../browser/templates/footerportlets.pt:22
+msgid "manage-footer-portlet-link"
+msgstr ""
+
+#. Default: "Add, edit or remove a portlet in the header area that spans columns one and two plus the content area"
+#: ../browser/templates/inheaderportlets.pt:22
+msgid "manage-in-header-portlet-link"
+msgstr ""
+
+#. Default: "Manage portlets above content"
+#: ../browser/templates/manageportletsabove.pt:41
+msgid "manage_portlets_above_content"
+msgstr "Administrar los portlets encima del contenido"
+
+#. Default: "Add, edit or remove a portlet above the content"
+#: ../browser/templates/portletsabovecontent.pt:22
+msgid "manage_portlets_above_link"
+msgstr ""
+
+#. Default: "Manage portlets below content"
+#: ../browser/templates/manageportletsbelow.pt:41
+msgid "manage_portlets_below_content"
+msgstr "Administrar los portlets debajo del contenido"
+
+#. Default: "Add, edit or remove a portlet below the content"
+#: ../browser/templates/portletsbelowcontent.pt:22
+msgid "manage_portlets_below_link"
+msgstr ""
+
+#. Default: "Manage Footer portlets"
+#: ../browser/templates/managefooterportlets.pt:41
+msgid "manage_portlets_footer"
+msgstr "Administrar los portlets al pie de la página"
+
+#. Default: "Manage portlets in the header"
+#: ../browser/templates/manageinheaderportlets.pt:41
+msgid "manage_portlets_in_header"
+msgstr ""
+
+#. Default: "Portlet well A"
+#: ../browser/templates/manageportletsabove.pt:54
+#: ../browser/templates/manageportletsbelow.pt:55
+msgid "portlet-well-a"
+msgstr "Caja para portlets A"
+
+#. Default: "Portlet well B"
+#: ../browser/templates/manageportletsabove.pt:59
+#: ../browser/templates/manageportletsbelow.pt:60
+msgid "portlet-well-b"
+msgstr "Caja para portlets B"
+
+#. Default: "Portlet well C"
+#: ../browser/templates/manageportletsabove.pt:64
+#: ../browser/templates/manageportletsbelow.pt:65
+msgid "portlet-well-c"
+msgstr "Caja para portlets C"
+
+#. Default: "Portlet well D"
+#: ../browser/templates/manageportletsabove.pt:70
+#: ../browser/templates/manageportletsbelow.pt:71
+msgid "portlet-well-d"
+msgstr "Caja para portlets D"
+
+#. Default: "Portlet well E"
+#: ../browser/templates/manageportletsabove.pt:75
+#: ../browser/templates/manageportletsbelow.pt:76
+msgid "portlet-well-e"
+msgstr "Caja para portlets E"
+
+#. Default: "Portlet well F"
+#: ../browser/templates/manageportletsabove.pt:80
+#: ../browser/templates/manageportletsbelow.pt:81
+msgid "portlet-well-f"
+msgstr "Caja para portlets F"
+
+#. Default: "Return"
+#: ../browser/templates/managefooterportlets.pt:45
+#: ../browser/templates/manageinheaderportlets.pt:45
+#: ../browser/templates/manageportletsabove.pt:45
+msgid "return_to_view"
+msgstr "Volver"
+
